@@ -1,0 +1,22 @@
+<div class="login-container">
+    <img class="foodmain" src="assets/images/foodmain.jpg" alt=" ">
+    <div class="logo">Food Review</div>
+    <div class="desc">
+        Discover the best dishes near you with our food review app! Read real reviews, share your experiences, and find
+        hidden gems. Perfect for food lovers seeking amazing flavors and top-rated restaurants!
+    </div>
+    <div class="login-form">
+        <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="username" />
+        </div>
+        <div class="form-group">
+            <label for="pword">Password</label>
+            <input type="text" name="pword" class="form-control" [(ngModel)]="password" />
+        </div>
+        <div class="btn-container">
+            <div class="error">{{ errorMsg }}</div>
+            <button class="btn btn-dark" (click)="login()"><b>Login</b></button>
+        </div>
+    </div>
+</div>

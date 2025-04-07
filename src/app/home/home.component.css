@@ -1,0 +1,205 @@
+.home-container {
+    display: flex;
+    .all-FoodItems {
+        width: 100%;
+        min-height: calc(100vh - 80px);
+        border-right: 3px solid yellow;
+        padding: 20px 40px;
+        font-family: "Roboto" ,sans-serif;
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            h4 {
+                text-transform: uppercase;
+                font-weight: bold;
+                border-left: 5px solid yellow;
+                padding-left: 10px;
+            }
+            .view-all {
+                color: yellow;
+                cursor: pointer;
+            }        
+        }
+    }
+}
+
+.food-thumbnail {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.food {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.food:hover {
+  transform: translateY(-5px);
+}
+
+.cover {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail {
+  padding: 15px;
+}
+
+.detail h5 {
+  margin: 0 0 10px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.reviews {
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.review-input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  min-height: 60px;
+}
+
+.submit-review {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-review:hover {
+  background-color: #45a049;
+}
+
+
+.non-veg-section, .veg-section {
+  margin-top: 40px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.non-veg-section .top h4 {
+  color: #e74c3c;  /* red shade for non-veg */
+  border-left: 5px solid #e74c3c;
+}
+
+.veg-section .top h4 {
+  color: #27ae60;  /* green shade for veg */
+  border-left: 5px solid #27ae60;
+}
+
+.non-veg-section .food:hover,
+.veg-section .food:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.non-veg-section .view-all {
+  color: #e74c3c;
+}
+
+.veg-section .view-all {
+  color: #27ae60;
+}
+
+/* Add these if you want section-specific review button colors */
+.non-veg-section .submit-review {
+  background-color: #e74c3c;
+}
+
+.non-veg-section .submit-review:hover {
+  background-color: #c0392b;
+}
+
+.veg-section .submit-review {
+  background-color: #27ae60;
+}
+
+.veg-section .submit-review:hover {
+  background-color: #219a52;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 8px 0;
+}
+
+.rating-text {
+  color: #666;
+  margin-left: 5px;
+  font-size: 0.9em;
+}
+
+.fa-star {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.rating-value {
+  color: #666;
+  font-weight: 500;
+}
+
+.stars {
+  color: #ddd;
+}
+
+.stars .fa-star {
+  margin-right: 2px;
+}
+
+.stars .fa-star.filled {
+  color: #ffd700;
+}
+
+.stars .fa-star.half-filled {
+  position: relative;
+  color: #ddd;
+}
+
+.stars .fa-star.half-filled::before {
+  content: '\f005';
+  position: absolute;
+  width: 50%;
+  overflow: hidden;
+  color: #ffd700;
+}
+
+.review-rating {
+  color: #4CAF50;
+  font-size: 0.9em;
+}
+
+.existing-reviews p {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}

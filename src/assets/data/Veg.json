@@ -1,0 +1,50 @@
+[
+    {
+      "id": 7,
+      "name": "Jeera Rice",
+      "cover": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/390bc352e3726171f8887483e4864d72",
+      "rating": 2.15,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Plain Thali",
+      "cover": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/12/11/3592e621-9173-4017-bfe5-a312ea1904a8_b154ad84-5c61-4f6b-a466-1cf5ad885265.jpg", 
+      "rating": 1.85,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Regular sarthak Thali",
+      "cover": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/12/11/a70e86a8-5820-4e1e-ab90-28fc537646e3_d32039a4-4450-4fb8-b50b-d36e19c0d435.jpg_compressed", 
+      "rating": 3.25,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Gobi Paratha",
+      "cover": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/12/11/d8414438-4a35-4f31-b3c9-0de3996fc477_51510cb5-1025-4c1d-9c92-267d5f848e86.jpg",
+      "rating": 4.15,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Aloo Paratha",
+      "cover": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/12/11/ce718883-255f-49eb-9592-7afd8c3b5ef1_5854855b-c61e-44a0-ae9b-2ccd78fe5fad.jpg",
+      "rating": 3.45,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Mix Veg Rice",
+      "cover": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/12/11/23f87da5-0ccd-4d56-8808-a2e0194cbb67_c17adc1a-6647-4a03-96d2-e3e7ff027adb.jpg",
+      "rating": 3.85,
+      "reviews": [
+      ]
+    }
+  ]

@@ -1,0 +1,113 @@
+<app-header></app-header>
+<div class="home-container">
+  <div class="all-FoodItems">
+    <!-- Trending Combo Section -->
+    <div class="trending-combo">
+      <div class="top">
+        <h4>Trending Combos</h4>
+        <div class="view-all">View All</div>
+      </div>
+      <div class="food-thumbnail">
+        <div class="food" *ngFor="let food of TrendingCombo; let i = index">
+          <div class="cover" (click)="goToFood('trending', food.id.toString())">
+            <img [src]="food.cover" [alt]="food.name" 
+                 (error)="handleImageError($event)" />
+          </div>
+          <div class="detail">
+            <h5>{{ food.name }}</h5>
+            <div class="reviews">
+              <div class="existing-reviews" *ngIf="food.reviews?.length">
+                <p *ngFor="let review of food.reviews">
+                  "{{ review.review }}" - {{ review.author }}
+                </p>
+              </div>
+              <div class="add-review">
+                <textarea [(ngModel)]="food.newReview" 
+                  placeholder="Write your review here..."
+                  class="review-input">
+                </textarea>
+                <button (click)="addReview(food)" 
+                  class="submit-review">
+                  Submit Review
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Non-Veg Section -->
+    <div class="non-veg-section">
+      <div class="top">
+        <h4>Non-Veg Specialties</h4>
+        <div class="view-all">View All</div>
+      </div>
+      <div class="food-thumbnail">
+        <div class="food" *ngFor="let food of NonVegItems; let i = index">
+          <div class="cover" (click)="goToFood('non-veg', food.id.toString())">
+            <img [src]="food.cover" [alt]="food.name" 
+                 (error)="handleImageError($event)" />
+          </div>
+          <div class="detail">
+            <h5>{{ food.name }}</h5>
+            <div class="reviews">
+              <div class="existing-reviews" *ngIf="food.reviews?.length">
+                <p *ngFor="let review of food.reviews">
+                  "{{ review.review }}" - {{ review.author }}
+                </p>
+              </div>
+              <div class="add-review">
+                <textarea [(ngModel)]="food.newReview" 
+                  placeholder="Write your review here..."
+                  class="review-input">
+                </textarea>
+                <button (click)="addReview(food)" 
+                  class="submit-review">
+                  Submit Review
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Veg Section -->
+    <div class="veg-section">
+      <div class="top">
+        <h4>Vegetarian Delights</h4>
+        <div class="view-all">View All</div>
+      </div>
+      <div class="food-thumbnail">
+        <div class="food" *ngFor="let food of VegItems; let i = index">
+          <div class="cover" (click)="goToFood('veg', food.id.toString())">
+            <img [src]="food.cover" [alt]="food.name" 
+                 (error)="handleImageError($event)" />
+          </div>
+          <div class="detail">
+            <h5>{{ food.name }}</h5>
+            <div class="reviews">
+              <div class="existing-reviews" *ngIf="food.reviews?.length">
+                <p *ngFor="let review of food.reviews">
+                  "{{ review.review }}" - {{ review.author }}
+                </p>
+              </div>
+              <div class="add-review">
+                <textarea [(ngModel)]="food.newReview" 
+                  placeholder="Write your review here..."
+                  class="review-input">
+                </textarea>
+                <button (click)="addReview(food)" 
+                  class="submit-review">
+                  Submit Review
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

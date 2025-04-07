@@ -1,0 +1,91 @@
+[
+    {
+      "id": 1,
+      "name": "Biryani",
+      "cover":"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/gp1ityra6utvzqn6ghnv",
+      "rating": 4.25,
+      "reviews": [
+        {
+          "author": "Sharvani",
+          "published_on": "2020-10-23 11:27:39",
+          "review": "It was very tasty",
+          "rating": 4.5
+        }
+
+      ]   
+    },
+    {
+      "id": 2,
+      "name": "Chicken 65",
+      "cover": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/9e5b59b98835281129c20fa48a578bf3",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "author": "Sharon",
+          "published_on": "2020-09-23 11:27:39",
+          "review": "it was yummyyyyyyyy",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Kadhai Chicken",
+      "cover": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/7b01e2a4103ba4d3ace17e8392aa995f",
+      "rating": 4.13,
+      "reviews": [
+        
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mutton Dum Biryani",
+      "cover": " https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/6/27/c31d6067-a3b0-4d8d-acef-c25aeb4dc418_05cf481e-e52c-4645-8899-80783e9f5fcb.JPG",
+      "rating": 4.12,
+      "reviews": [
+        {
+          "author": "Supriya",
+          "published_on": "2020-10-23 11:27:39",
+          "review": "The best i had so far",
+          "rating": 4.5
+        },
+        {
+          "author": "Sindhu",
+          "published_on": "2021-10-11 11:27:39",
+          "review": "it was delicious!",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mutton Saoji",
+      "cover": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/c0ef610964f44c3efb8415be415b1244",
+      "rating": 4.53,
+      "reviews": [
+        {
+          "author": "Peter Pettigrew",
+          "published_on": "2020-10-13 11:27:39",
+          "review": "super Delicious",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Mutton Handi",
+      "cover": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/3cc8814b95fb44005847bf4e4c5d9aca",
+      "rating": 4.15,
+      "reviews": [
+        {
+          "author": "tarun",
+          "published_on": "2021-10-13 11:37:29",
+          "review": "Lengthy movie",
+          "rating": 3.5
+        }
+      ]
+    }
+  
+]
+
+      

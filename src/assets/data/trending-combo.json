@@ -1,0 +1,37 @@
+[
+    {
+      "id": 13,
+      "name": "2 Chicken Longer Burgers Lunch Combo",
+      "cover": "https://images.ctfassets.net/wtodlh47qxpt/5FI3GBWqTeI4mJFpr4dHC1/bdf0e20407c1bc227eb28c25733a1344/D-PR00002503-prod?h=600&w=800&fm=webp&fit=fill",
+      "rating": 4.45,
+      "reviews": []
+    },
+    {
+      "id": 14,
+      "name": "2 Chicken Rolls Lunch Combo",
+      "cover": "https://images.ctfassets.net/wtodlh47qxpt/1gArUKK1CAQ5wsgxscTaQx/7f970578564b02543f9684f83dec52a1/D-PR00002505-prod?h=600&w=800&fm=webp&fit=fill",
+      "rating": 2.53,
+      "reviews": []
+    },
+    {
+      "id": 15,
+      "name": "Chicken Longer & Rice Lunch Combo",
+      "cover": "https://images.ctfassets.net/wtodlh47qxpt/eEPiWT5dymfPcXebrT90g/86972edcccd43b9cb7e0ed0ba4d259a6/D-PR00002507-prod?h=600&w=800&fm=webp&fit=fill", 
+      "rating": 4.45,
+      "reviews": []
+    },
+    {
+      "id": 16,
+      "name": "Popcorn Rice & Pepsi Bottle Combo",
+      "cover": "https://images.ctfassets.net/wtodlh47qxpt/3qXtUIHfXPTyQm8pA4ZWsq/2d422d9febed2e9fa2b29493647cb8f4/D-PR00002585-prod?h=600&w=800&fm=webp&fit=fill",
+      "rating": 4.12,
+      "reviews": []
+    },
+    {
+      "id": 17,
+      "name": "Veg Rice Box",
+      "cover": "https://images.ctfassets.net/wtodlh47qxpt/58HXaVcYMjlu3g9CEjL73E/33a2a108ca509262b6007c52f450c08c/D-PR00002490-prod?h=600&w=800&fm=webp&fit=fill",
+      "rating": 4.95,
+      "reviews": []
+    }
+]
