@@ -26,7 +26,7 @@ interface FoodItem {
   imports: [
     CommonModule, 
     FormsModule,
-    HeaderComponent  // Add HeaderComponent to imports
+    HeaderComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
@@ -34,17 +34,16 @@ interface FoodItem {
 export class HomeComponent implements OnInit {
   TrendingCombo: FoodItem[] = [];
   NonVegItems: FoodItem[] = [];
-  VegItems: FoodItem[] = [];  // Add this line
+  VegItems: FoodItem[] = [];
 
   constructor(private http: HttpClient, private router: Router) {}
 
   ngOnInit(): void {
     this.getTrendingCombo();
     this.getNonVegItems();
-    this.getVegItems();  // Add this line
+    this.getVegItems();
   }
 
-  // Add this method
   getVegItems() {
     this.http.get<FoodItem[]>('assets/data/Veg.json').subscribe({
       next: (items) => {
@@ -82,7 +81,7 @@ export class HomeComponent implements OnInit {
     if (!food.newReview?.trim()) return;
 
     const newReview: Review = {
-      author: 'User', // You can get this from your auth service
+      author: 'User',
       review: food.newReview,
       published_on: new Date().toISOString()
     };
@@ -92,7 +91,7 @@ export class HomeComponent implements OnInit {
     }
     
     food.reviews.push(newReview);
-    food.newReview = ''; // Clear the input
+    food.newReview = '';
   }
 
   goToFood(type: string, id: string) {

@@ -58,3 +58,15 @@
     }
    
 }
+
+/* Add to existing styles */
+.register-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.register-link a {
+    color: #e2aa02;
+    cursor: pointer;
+    text-decoration: underline;
+}

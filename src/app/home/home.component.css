@@ -145,41 +145,46 @@
 .veg-section .submit-review:hover {
   background-color: #219a52;
 }
+/* Remove duplicate rating styles and keep only the original ones */
 .rating {
   display: flex;
   align-items: center;
-  gap: 5px;
-  margin: 8px 0;
+  margin: 10px 0;
 }
 
-.rating-text {
-  color: #666;
-  margin-left: 5px;
-  font-size: 0.9em;
+.stars {
+  display: flex;
+  gap: 5px;
 }
 
 .fa-star {
   cursor: pointer;
-  font-size: 1.2em;
-}
-
-.rating-value {
-  color: #666;
-  font-weight: 500;
-}
-
-.stars {
   color: #ddd;
+  transition: color 0.2s;
 }
 
-.stars .fa-star {
-  margin-right: 2px;
-}
-
-.stars .fa-star.filled {
+.fa-star:hover,
+.fa-star.filled {
   color: #ffd700;
 }
 
+.rating-text {
+  margin-left: 10px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* Remove duplicate hover effects */
+.stars:hover .fa-star {
+  color: #ddd;
+}
+
+.stars:hover .fa-star:hover,
+.stars:hover .fa-star:hover ~ .fa-star {
+  color: #ffd700;
+}
+
+/* Remove half-filled star styles as they weren't in original */
 .stars .fa-star.half-filled {
   position: relative;
   color: #ddd;

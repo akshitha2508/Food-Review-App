@@ -19,6 +19,20 @@ export class AuthService {
 
   logout() {
     localStorage.removeItem('isLoggedIn');
-    this.router.navigate(['/login']);
+    this. router.navigate(['/login']);
+  }
+
+  register(username: string, email: string, password: string): boolean {
+    // Here you would typically make an API call to register the user
+    // For now, we'll just simulate a successful registration
+    try {
+      // Store user data in localStorage (temporary solution)
+      const userData = { username, email, password };
+      localStorage.setItem('registeredUser', JSON.stringify(userData));
+      return true;
+    } catch (error) {
+      console.error('Registration error:', error);
+      return false;
+    }
   }
 }
